@@ -1,0 +1,37 @@
+.hero {
+  background-color: var(--hero__background-color);
+}
+
+.hero__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__content {
+  width: 500px;
+  padding: 120px 0;
+}
+
+.hero__content-heading {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 16px;
+  color: var(--header__bg-color);
+  font-family: "Open Sans Condensed", sans-serif, Arial;
+}
+
+.hero__content-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 46px;
+  color: var(--header__bg-color);
+}
+
+.hero__content-doctor {
+  width: 423px;
+  height: 506px;
+  margin-top: 30px;
+}
