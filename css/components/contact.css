@@ -29,7 +29,6 @@
   line-height: 120%;
   padding: 12px 24px;
   border-radius: 8px;
-  letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--header__bg-color);
   border: 2px solid var(--header__bg-color);
