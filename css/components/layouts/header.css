@@ -16,4 +16,17 @@
   font-weight: 600;
   line-height: normal;
   color: var(--nav__link-color);
+  transition: color 300ms linear;
+  -o-transition: color 300ms linear;
+  -ms-transition: color 300ms linear;
+  -moz-transition: color 300ms linear;
+  -webkit-transition: color 300ms linear;
+}
+
+.header-logo__container:hover .header-logo-text {
+  color: var(--nav-entrollment__bg-color);
+}
+
+.header-logo__container:active {
+  opacity: 0.6;
 }

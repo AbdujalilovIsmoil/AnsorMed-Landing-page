@@ -1,0 +1,100 @@
+.entrollment {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 150%;
+  border-radius: 8px;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  color: var(--header__bg-color);
+  border: 2px solid var(--nav-entrollment__bg-color);
+  background-color: var(--nav-entrollment__bg-color);
+  font-family: "Open Sans Condensed", sans-serif, "Arial";
+}
+
+.contact__item-link {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 120%;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  color: var(--header__bg-color);
+  border: 2px solid var(--header__bg-color);
+  font-family: "Open Sans Condensed", sans-serif, "Arial";
+  transition: background-color 250ms linear, color 250ms linear,
+    border 250ms linear;
+  -o-transition: background-color 250ms linear, color 250ms linear,
+    border 250ms linear;
+  -ms-transition: background-color 250ms linear, color 250ms linear,
+    border 250ms linear;
+  -moz-transition: background-color 250ms linear, color 250ms linear,
+    border 250ms linear;
+  -webkit-transition: background-color 250ms linear, color 250ms linear,
+    border 250ms linear;
+}
+
+.contact__item-link:hover {
+  color: var(--header__bg-color);
+  border: 2px solid var(--nav-entrollment__bg-color);
+  background-color: var(--nav-entrollment__bg-color);
+}
+
+.contact__item-link:active {
+  opacity: 0.6;
+  color: var(--header__bg-color);
+  background-color: var(--nav-entrollment__bg-color);
+}
+
+.nav-enrollment {
+  transition: background-color 250ms linear, color 250ms linear;
+  -o-transition: background-color 250ms linear, color 250ms linear;
+  -ms-transition: background-color 250ms linear, color 250ms linear;
+  -moz-transition: background-color 250ms linear, color 250ms linear;
+  -webkit-transition: background-color 250ms linear, color 250ms linear;
+}
+
+.nav-enrollment:hover {
+  background-color: transparent;
+  color: var(--nav-entrollment__bg-color);
+}
+
+.nav-enrollment:active {
+  opacity: 0.6;
+  color: var(--header__bg-color);
+  background-color: var(--nav-entrollment__bg-color);
+}
+
+.services-entrollment {
+  transition: background-color 250ms linear, color 250ms linear;
+  -o-transition: background-color 250ms linear, color 250ms linear;
+  -ms-transition: background-color 250ms linear, color 250ms linear;
+  -moz-transition: background-color 250ms linear, color 250ms linear;
+  -webkit-transition: background-color 250ms linear, color 250ms linear;
+}
+
+.services-entrollment:hover {
+  background-color: transparent;
+  color: var(--nav-entrollment__bg-color);
+}
+
+.services-entrollment:active {
+  opacity: 0.6;
+  color: var(--header__bg-color);
+  background-color: var(--nav-entrollment__bg-color);
+}
+
+.hero__content-entrollment {
+  transition: opacity 250ms linear;
+  -webkit-transition: opacity 250ms linear;
+  -moz-transition: opacity 250ms linear;
+  -ms-transition: opacity 250ms linear;
+  -o-transition: opacity 250ms linear;
+}
+
+.hero__content-entrollment:hover {
+  opacity: 0.8;
+}
+
+.hero__content-entrollment:active {
+  opacity: 0.6;
+}

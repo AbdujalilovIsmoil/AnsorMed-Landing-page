@@ -21,11 +21,43 @@
   line-height: 150%;
   text-transform: uppercase;
   color: var(--header__bg-color);
+  transition: color 250ms linear;
+  -o-transition: color 250ms linear;
+  -ms-transition: color 250ms linear;
+  -moz-transition: color 250ms linear;
+  -webkit-transition: color 250ms linear;
+}
+
+.footer__item-link:hover {
+  color: var(--nav-entrollment__bg-color);
+}
+
+.footer__item-link:active {
+  opacity: 0.6;
+  color: var(--header__bg-color);
 }
 
 .footer-logo-text {
   font-size: 24px;
   font-weight: 600;
   line-height: normal;
+  color: var(--header__bg-color);
+  transition: color 250ms linear;
+  -o-transition: color 250ms linear;
+  -ms-transition: color 250ms linear;
+  -moz-transition: color 250ms linear;
+  -webkit-transition: color 250ms linear;
+}
+
+.footer-logo__container:hover .footer-logo-text {
+  color: var(--nav-entrollment__bg-color);
+}
+
+.footer-logo__container:active {
+  opacity: 0.6;
+}
+
+.footer-logo__container:active .footer-logo-text {
+  opacity: 0.6;
   color: var(--header__bg-color);
 }
