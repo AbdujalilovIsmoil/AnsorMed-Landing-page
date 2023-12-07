@@ -10,3 +10,10 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.header-logo-text {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--nav__link-color);
+}

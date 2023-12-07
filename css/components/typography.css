@@ -10,3 +10,9 @@ body {
 a {
   text-decoration: none;
 }
+
+.ansormed-logo{
+  gap: 16px;
+  display: flex;
+  align-items: center;
+}
