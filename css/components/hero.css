@@ -6,6 +6,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media only screen and (max-width: 830px) {
+    text-align: center;
+    flex-direction: column;
+  }
 }
 
 .hero__content {

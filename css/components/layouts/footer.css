@@ -7,12 +7,19 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media only screen and (max-width: 700px) {
+    gap: 30px;
+    flex-direction: column;
+  }
 }
 
 .footer__list {
   gap: 32px;
   display: flex;
   align-items: center;
+  @media only screen and (max-width: 700px) {
+    flex-direction: column;
+  }
 }
 
 .footer__item-link {
